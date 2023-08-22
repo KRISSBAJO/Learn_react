@@ -1,0 +1,59 @@
+/* Login.css */
+
+/* General styles for the login form container */
+form {
+    width: 100%;
+    max-width: 459px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 17px;
+}
+
+/* Style for input fields */
+form input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Style for the submit button */
+form button {
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: #45a049;
+}
+
+.error {
+    color: rgb(241, 2, 2);
+    font-size: 0.8em;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.login-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1089ed;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+

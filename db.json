@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "name": "Devon",
+      "email": "jason@gmail.com",
+      "id": 2
+    },
+    {
+      "firstName": "Json",
+      "lastName": "Sever",
+      "email": "json@gmail.com",
+      "id": 3
+    },
+    {
+      "firstName": "Christopher ",
+      "lastName": "Devon",
+      "email": "jason@gmail.com",
+      "id": 4
+    },
+    {
+      "firstName": "Christopher",
+      "lastName": "Adebajo",
+      "email": "krissbajo@gmail.com",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

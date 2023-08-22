@@ -1,0 +1,69 @@
+/* Styling the FAQ page container */
+.faq-page {
+    padding: 40px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+/* Styling the FAQ page heading */
+.faq-page h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Styling the list of questions and answers */
+.faq-page ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+}
+
+.faq-page li {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s;
+    
+}
+
+.faq-page li:hover {
+    background-color: #f0f0f0;
+}
+
+.faq-page h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.faq-page p {
+    margin: 0;
+    color: #666;
+}
+
+.read-more-link {
+    color: #007BFF; /* Color for the link */
+    text-decoration: none; /* Remove the underline */
+    font-weight: bold; /* Make it bold for emphasis */
+    transition: color 0.2s; /* Transition effect for hover */
+}
+
+.read-more-link:hover {
+    color: #0056b3; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover for added emphasis */
+}
+
+.read-more-link:focus {
+    outline: none; /* Remove the focus outline */
+    text-decoration: underline; /* Add underline when link is focused */
+}
+
+.faq-page li {
+    margin-bottom: 20px; /* Add some spacing between questions for better readability */
+}

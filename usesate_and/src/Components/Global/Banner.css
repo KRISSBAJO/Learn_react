@@ -1,0 +1,31 @@
+/* Universal styles for the Banner component */
+div {
+    padding: 20px;
+    text-align: center;
+    color: #e93e3e;  /* White */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    position: relative; /* Allows child elements to be positioned relative to this */
+}
+
+/* Style for the main banner message */
+div > p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the subheading or additional text */
+div > p {
+    font-size: 20px;
+}
+
+/* If you want to position the about.heading differently, e.g., in a corner */
+.about-heading {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.2); /* Slight white background for readability */
+    padding: 5px 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,90 @@
+/* Root styles for the ContactLayout */
+body, h1, h2, p {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+/* Style for the navigation bar */
+nav {
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the NavLink elements */
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the NavLink elements */
+nav a:hover {
+    background-color: #555;
+}
+
+/* Styles for the additional content section */
+.additional-content {
+    display: flex;
+    flex-direction: column; /* To stack elements vertically */
+    align-items: flex-start; /* Align to the start for better readability */
+    padding: 20px;
+    border: 1px solid #a11919;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    color: rgb(227, 145, 145);
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0; /* Adding margin at top and bottom for spacing */
+}
+
+/* Style for the contact details inside the additional content */
+.contact-details {
+    margin-bottom: 20px; /* Space between contact details and the button */
+}
+
+/* Social media links style */
+.social-media-links {
+    display: flex;
+    gap: 10px; /* Adds a gap between links */
+    margin-top: 20px;
+}
+
+/* General anchor style for all additional content links */
+.additional-content a {
+    color: rgb(141, 135, 135);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.additional-content a:hover {
+    color: #eee;
+}
+
+/* Address style */
+.address {
+    margin-top: 20px;
+}
+
+/* Style for the button in the additional content */
+button {
+    padding: 10px 15px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
